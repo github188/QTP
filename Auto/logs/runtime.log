@@ -1,0 +1,157 @@
+2008-1-18 3:12:26: 最多执行4个测试用例
+2008-1-18 3:12:27: 开始运行测试用例 银行收款 , 数据存放位置： D:\Auto Test FrameWork\testData\settlement\collection\银行收款.xls
+2008-1-18 3:12:48: 测试用例的数据加载完成。D:\Auto Test FrameWork\testData\settlement\collection\银行收款.xls
+2008-1-18 3:12:48: 加载Task脚本文件完成。D:\Auto Test FrameWork\testScript\login.vbs
+2008-1-18 3:12:48: 加载测试数据完成。login
+2008-1-18 3:12:49: 执行测试步骤 3, objlogin.login "login"
+2008-1-18 3:12:55: lbx41
+2008-1-18 3:12:55: 123456
+2008-1-18 3:12:55: 执行测试步骤 5, objlogin.login "login"
+2008-1-18 3:13:4: lbx42
+2008-1-18 3:13:5: 123456
+2008-1-18 3:13:5: 执行测试步骤 7, Call objlogin.logout()
+2008-1-18 3:13:10: 所有测试步骤执行完成。
+2008-1-18 3:13:10: 执行完成。测试用例 银行收款 , 数据存放位置： D:\Auto Test FrameWork\testData\settlement\collection\银行收款.xls
+2008-1-18 3:13:10: 所有测试用例执行完成。
+2016/6/30 16:23:56: 最多执行0个测试用例
+2016/6/30 16:23:56: 所有测试用例执行完成。
+2016/6/30 16:28:8: 最多执行4个测试用例
+2016/6/30 16:28:9: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 16:28:9: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 16:28:10: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/6/30 16:28:10: 加载Task脚本文件完成。C:\project1\testScript\settlement\collection\collection.vbs
+2016/6/30 16:28:13: 加载测试数据完成。login
+2016/6/30 16:28:15: 执行测试步骤 3, objlogin.login "login"
+2016/6/30 16:35:25: 最多执行4个测试用例
+2016/6/30 16:35:25: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 16:35:26: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 16:35:26: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/6/30 16:35:26: 加载Task脚本文件完成。C:\project1\testScript\settlement\collection\collection.vbs
+2016/6/30 16:35:27: 加载测试数据完成。login
+2016/6/30 16:35:29: 执行测试步骤 3, objlogin.login "login"
+2016/6/30 16:46:15: 最多执行4个测试用例
+2016/6/30 16:46:16: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 16:46:16: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 16:46:16: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/6/30 16:46:17: 加载Task脚本文件完成。C:\project1\testScript\settlement\collection\collection.vbs
+2016/6/30 16:46:18: 加载测试数据完成。login
+2016/6/30 16:46:20: 执行测试步骤 3, objlogin.login "login"
+2016/6/30 16:47:3: 执行测试步骤 4, objcollection.toInsert "testData"
+2016/6/30 16:47:4: 开始进入功能：资金结算-柜台业务-活期存款-银行收款-业务处理
+2016/6/30 16:52:33: 最多执行4个测试用例
+2016/6/30 16:52:34: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 16:52:35: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 16:52:36: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/6/30 16:52:36: 加载Task脚本文件完成。C:\project1\testScript\settlement\collection\collection.vbs
+2016/6/30 16:52:39: 加载测试数据完成。login
+2016/6/30 16:52:41: 执行测试步骤 3, objlogin.login "login"
+2016/6/30 16:53:27: 执行测试步骤 4, objcollection.toInsert "testData"
+2016/6/30 16:53:27: 开始进入功能：资金结算-柜台业务-活期存款-银行收款-业务处理
+2016/6/30 18:49:14: 最多执行4个测试用例
+2016/6/30 18:49:14: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 18:49:15: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 18:49:15: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/6/30 18:49:15: 加载Task脚本文件完成。C:\project1\testScript\settlement\collection\collection.vbs
+2016/6/30 18:49:16: 加载测试数据完成。login
+2016/6/30 18:49:16: 执行测试步骤 3, objlogin.login "login"
+2016/6/30 18:50:2: 执行测试步骤 4, objcollection.toInsert "testData"
+2016/6/30 18:50:2: 开始进入功能：资金结算-柜台业务-活期存款-银行收款-业务处理
+2016/6/30 21:12:27: 最多执行4个测试用例
+2016/6/30 21:12:28: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 21:12:28: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 21:12:29: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/6/30 21:16:12: 最多执行4个测试用例
+2016/6/30 21:16:12: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 21:16:12: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 21:16:13: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/6/30 21:51:22: 最多执行4个测试用例
+2016/6/30 21:51:23: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 21:51:23: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 21:51:23: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/6/30 21:54:22: 最多执行4个测试用例
+2016/6/30 21:54:22: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 21:54:23: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 21:54:23: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/6/30 21:59:13: 最多执行4个测试用例
+2016/6/30 21:59:13: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 21:59:14: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 21:59:14: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/6/30 22:24:0: 最多执行4个测试用例
+2016/6/30 22:24:0: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 22:24:0: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/6/30 22:24:1: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/7/1 8:1:50: 最多执行4个测试用例
+2016/7/1 8:1:51: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/7/1 8:1:52: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/7/1 8:1:52: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/7/1 8:40:6: 最多执行4个测试用例
+2016/7/1 8:40:6: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/7/1 8:40:7: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/7/1 8:40:8: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/7/1 8:45:55: 最多执行4个测试用例
+2016/7/1 8:45:56: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/7/1 8:45:57: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/7/1 8:45:58: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/7/1 8:47:48: 最多执行4个测试用例
+2016/7/1 8:47:48: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/7/1 8:47:49: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/7/1 8:47:49: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/7/1 8:51:19: 最多执行4个测试用例
+2016/7/1 8:51:19: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/7/1 8:51:19: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/7/1 8:51:20: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/7/1 8:51:20: 加载Task脚本文件完成。C:\project1\testScript\settlement\collection\collection.vbs
+2016/7/1 8:51:21: 加载测试数据完成。login
+2016/7/1 8:51:22: 执行测试步骤 3, objlogin.login "login"
+2016/7/1 8:52:18: 执行测试步骤 4, objcollection.toInsert "testData"
+2016/7/1 9:11:6: 最多执行4个测试用例
+2016/7/1 9:11:7: 开始运行测试用例 银行收款 , 数据存放位置： C:\project1\testData\settlement\collection\银行收款.xls
+2016/7/1 9:11:8: 测试用例的数据加载完成。C:\project1\testData\settlement\collection\银行收款.xls
+2016/7/1 9:11:9: 加载Task脚本文件完成。C:\project1\testScript\login.vbs
+2016/7/1 9:11:9: 加载Task脚本文件完成。C:\project1\testScript\settlement\collection\collection.vbs
+2016/7/1 9:11:11: 加载测试数据完成。login
+2016/7/1 9:11:12: 执行测试步骤 3, objlogin.login "login"
+2016/7/1 9:11:58: 执行测试步骤 4, objcollection.toInsert "testData"
+2016/7/1 9:54:52: 最多执行4个测试用例
+2016/7/1 9:54:53: 开始运行测试用例 银行收款 , 数据存放位置： C:\Users\Cartisia\Desktop\Auto\testData\settlement\collection\银行收款.xls
+2016/7/1 9:54:53: 测试用例的数据加载完成。C:\Users\Cartisia\Desktop\Auto\testData\settlement\collection\银行收款.xls
+2016/7/1 9:54:54: 加载Task脚本文件完成。C:\Users\Cartisia\Desktop\Auto\testScript\login.vbs
+2016/7/1 9:54:54: 加载Task脚本文件完成。C:\Users\Cartisia\Desktop\Auto\testScript\settlement\collection\collection.vbs
+2016/7/1 9:54:55: 加载测试数据完成。login
+2016/7/1 9:54:56: 执行测试步骤 3, objlogin.login "login"
+2016/7/1 9:57:0: 最多执行4个测试用例
+2016/7/1 9:57:0: 开始运行测试用例 银行收款 , 数据存放位置： C:\Users\Cartisia\Desktop\Auto\testData\settlement\collection\银行收款.xls
+2016/7/1 9:57:0: 测试用例的数据加载完成。C:\Users\Cartisia\Desktop\Auto\testData\settlement\collection\银行收款.xls
+2016/7/1 9:57:0: 加载Task脚本文件完成。C:\Users\Cartisia\Desktop\Auto\testScript\login.vbs
+2016/7/1 9:57:0: 加载Task脚本文件完成。C:\Users\Cartisia\Desktop\Auto\testScript\settlement\collection\collection.vbs
+2016/7/1 9:57:0: 加载测试数据完成。login
+2016/7/1 9:57:1: 执行测试步骤 3, objlogin.login "login"
+2016/7/1 9:57:41: 执行测试步骤 4, objcollection.toInsert "testData"
+2016/7/1 10:1:13: 最多执行4个测试用例
+2016/7/1 10:1:13: 开始运行测试用例 银行收款 , 数据存放位置： C:\Users\Cartisia\Desktop\Auto\testData\settlement\collection\银行收款.xls
+2016/7/1 10:1:13: 测试用例的数据加载完成。C:\Users\Cartisia\Desktop\Auto\testData\settlement\collection\银行收款.xls
+2016/7/1 10:1:14: 加载Task脚本文件完成。C:\Users\Cartisia\Desktop\Auto\testScript\login.vbs
+2016/7/1 10:1:14: 加载Task脚本文件完成。C:\Users\Cartisia\Desktop\Auto\testScript\settlement\collection\collection.vbs
+2016/7/1 10:1:16: 加载测试数据完成。login
+2016/7/1 10:1:17: 执行测试步骤 3, objlogin.login "login"
+2016/7/1 10:1:57: 执行测试步骤 4, objcollection.toInsert "testData"
+2016/7/1 10:2:15: 执行测试步骤 4, objcollection.toInsert "testData"
+2016/7/1 10:2:29: 执行测试步骤 5, objlogin.login "login"
+2016/7/1 10:2:50: 执行测试步骤 7, Call objlogin.logout()
+2016/7/1 10:2:52: 所有测试步骤执行完成。
+2016/7/1 10:2:53: 执行完成。测试用例 银行收款 , 数据存放位置： C:\Users\Cartisia\Desktop\Auto\testData\settlement\collection\银行收款.xls
+2016/7/1 10:2:53: 所有测试用例执行完成。
+2016/7/1 10:28:50: 最多执行4个测试用例
+2016/7/1 10:28:50: 开始运行测试用例 银行收款 , 数据存放位置： C:\Users\Cartisia\Desktop\Auto\testData\settlement\collection\银行收款.xls
+2016/7/1 10:28:51: 测试用例的数据加载完成。C:\Users\Cartisia\Desktop\Auto\testData\settlement\collection\银行收款.xls
+2016/7/1 10:28:51: 加载Task脚本文件完成。C:\Users\Cartisia\Desktop\Auto\testScript\login.vbs
+2016/7/1 10:28:52: 加载Task脚本文件完成。C:\Users\Cartisia\Desktop\Auto\testScript\settlement\collection\collection.vbs
+2016/7/1 10:28:53: 加载测试数据完成。login
+2016/7/1 10:28:54: 执行测试步骤 3, objlogin.login "login"
+2016/7/1 10:29:28: 执行测试步骤 4, objcollection.toInsert "testData"
+2016/7/1 10:29:56: 执行测试步骤 4, objcollection.toInsert "testData"
+2016/7/1 10:30:15: 执行测试步骤 5, objlogin.login "login"
+2016/7/1 10:30:42: 执行测试步骤 7, Call objlogin.logout()
+2016/7/1 10:30:44: 所有测试步骤执行完成。
+2016/7/1 10:30:44: 执行完成。测试用例 银行收款 , 数据存放位置： C:\Users\Cartisia\Desktop\Auto\testData\settlement\collection\银行收款.xls
+2016/7/1 10:30:45: 所有测试用例执行完成。

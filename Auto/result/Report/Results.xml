@@ -1,0 +1,180 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE Report
+[
+<!ELEMENT Report (General ,(Doc|BPT)) >
+<!ATTLIST Report ver CDATA #REQUIRED tmZone CDATA #REQUIRED>
+
+<!ELEMENT General ( DocLocation ) >
+<!ATTLIST General productName CDATA #REQUIRED productVer CDATA #REQUIRED os CDATA #REQUIRED host CDATA #REQUIRED>
+
+<!ELEMENT BPT (DName,Res,DVer?,TSet?,TInst?,NodeArgs,Doc*) >
+<!ATTLIST BPT rID ID #REQUIRED >
+
+<!ELEMENT Doc (DName,Res,DVer?,TSet?,TInst?,RunType?,DT?,Step*,DIter*,Action*,Summary?,NodeArgs?) >
+<!ATTLIST Doc rID ID #REQUIRED type (Test|BC) "Test" productName CDATA #REQUIRED BCIter CDATA #IMPLIED >
+
+<!ELEMENT RunType ( #PCDATA )>
+<!ATTLIST RunType fmStep (False|True) "False" batch (False|True) "False" upDesc (False|True) "False" upChk (False|True) "False" upAS (False|True) "False">
+
+<!ELEMENT DName ( #PCDATA ) >
+
+<!ELEMENT Res ( #PCDATA ) >
+
+<!ELEMENT DVer ( #PCDATA ) >
+
+<!ELEMENT TSet ( #PCDATA ) >
+
+<!ELEMENT TInst ( #PCDATA ) >
+
+<!ELEMENT DIter (Step?,Action+,Summary?,NodeArgs)>
+<!ATTLIST DIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT DocLocation ( #PCDATA )>
+
+<!ELEMENT Action (AName,AIter*,(Step|HtmlStep|Action)*,Summary,NodeArgs) >
+<!ATTLIST Action rID ID #REQUIRED>
+
+<!ELEMENT AIter ((Step|HtmlStep|Action)*,Summary?,NodeArgs) >
+<!ATTLIST AIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT AName ( #PCDATA ) >
+
+<!ELEMENT Step (Obj,Details,Time,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST Step rID ID #REQUIRED retval CDATA #IMPLIED>
+
+<!ELEMENT HtmlStep (HTML,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST HtmlStep rID ID #REQUIRED >
+
+<!ELEMENT Obj ( #PCDATA ) >
+<!ATTLIST Obj plainTxt (False|True) "True">
+
+<!ELEMENT Details ( #PCDATA ) >
+<!ATTLIST Details plainTxt (False|True) "True">
+
+<!ELEMENT Time ( #PCDATA ) >
+
+<!ELEMENT HTML ( #PCDATA ) >
+
+<!ELEMENT Disp ( #PCDATA ) >
+
+<!ELEMENT NodeArgs (Disp,TopPane?,BtmPane?)>
+<!ATTLIST NodeArgs eType CDATA #REQUIRED icon CDATA #REQUIRED nRep CDATA #REQUIRED filter (False|True) "True">
+<!ATTLIST NodeArgs status (Passed|Failed|Done|Warning|Information) "Done">
+<!ATTLIST NodeArgs iconSel CDATA #IMPLIED nType CDATA #IMPLIED >
+
+<!ELEMENT TopPane (Path)>
+
+<!ELEMENT BtmPane ( (Path|WR)?,ASHilite?)>
+<!ATTLIST BtmPane vType CDATA "HTML">
+
+<!ELEMENT Path ( #PCDATA ) >
+
+<!ELEMENT ASHilite ( #PCDATA ) >
+
+<!ELEMENT WR ( #PCDATA ) >
+
+<!ELEMENT DT (NodeArgs) >
+<!ATTLIST DT rID ID #REQUIRED>
+
+<!ELEMENT Summary (Param*)>
+<!ATTLIST Summary sTime CDATA #IMPLIED eTime CDATA #IMPLIED passed CDATA #IMPLIED failed CDATA #IMPLIED warnings CDATA #IMPLIED retval CDATA #IMPLIED stopped (False|True) "False" >
+
+<!ELEMENT Param (ParamName,ParamVal)+ >
+<!ATTLIST Param paramInOut (In|Out) "In">
+
+<!ELEMENT ParamName ( #PCDATA ) >
+
+<!ELEMENT ParamVal ( #PCDATA ) >
+
+]
+>
+<Report ver="2.0" tmZone="中国标准时间">
+<General productName="QuickTest Professional" productVer="9.0" os="Windows XP" host="FS-ZWZHOU"><DocLocation><![CDATA[D:\Auto Test FrameWork\Driver]]></DocLocation></General>
+<Doc rID="T1"   productName= "QuickTest Professional"  >
+<DName><![CDATA[Driver]]></DName>
+<Res><![CDATA[result]]></Res>
+<DT rID="T2">
+<NodeArgs eType="Table" icon="2" nRep="5" filter="False" >
+<Disp><![CDATA[Run-Time Data Table]]></Disp>
+<BtmPane vType="Table">
+<Path><![CDATA[Default.xls]]></Path>
+</BtmPane>
+</NodeArgs>
+</DT>
+<DIter rID="T3" iterID="1" >
+<Action rID="T4">
+<AName><![CDATA[Driver_TestSet]]></AName>
+<Action rID="T5">
+<AName><![CDATA[Driver_TestCase]]></AName>
+<Step rID="T6" >
+<Obj plainTxt="False" ><![CDATA[[ Page ].Sync]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2008-1-18 - 3:12:51]]></Time>
+<NodeArgs eType="Replay" icon="6" nRep="12" >
+<Disp><![CDATA[[ Page ].Sync]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T7" >
+<Obj plainTxt="False" ><![CDATA[[ Browser ]]]></Obj>
+<Details plainTxt="False" ><![CDATA[Navigate to http://www.baidu.com<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></Details>
+<Time><![CDATA[2008-1-18 - 3:12:51]]></Time>
+<NodeArgs eType="Replay" icon="7" nRep="14" nType="Navigate to http://www.baidu.com" >
+<Disp><![CDATA[[ Browser ]]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T8" >
+<Obj plainTxt="False" ><![CDATA[[ Page ].Sync]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2008-1-18 - 3:12:51]]></Time>
+<NodeArgs eType="Replay" icon="6" nRep="16" >
+<Disp><![CDATA[[ Page ].Sync]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T9" >
+<Obj plainTxt="False" ><![CDATA[[ Page ].Sync]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2008-1-18 - 3:13:01]]></Time>
+<NodeArgs eType="Replay" icon="6" nRep="19" >
+<Disp><![CDATA[[ Page ].Sync]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T10" >
+<Obj plainTxt="False" ><![CDATA[[ Browser ]]]></Obj>
+<Details plainTxt="False" ><![CDATA[Navigate to http://www.baidu.com<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></Details>
+<Time><![CDATA[2008-1-18 - 3:13:01]]></Time>
+<NodeArgs eType="Replay" icon="7" nRep="21" nType="Navigate to http://www.baidu.com" >
+<Disp><![CDATA[[ Browser ]]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T11" >
+<Obj plainTxt="False" ><![CDATA[[ 百度一下，你就知道 ].Sync]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2008-1-18 - 3:13:02]]></Time>
+<NodeArgs eType="Replay" icon="6" nRep="23" >
+<Disp><![CDATA[[ 百度一下，你就知道 ].Sync]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="2008-1-18 - 3:12:27" eTime="2008-1-18 - 3:13:10" passed="0" failed="0" warnings="0" ><Param ><ParamName><![CDATA[testCaseFile]]></ParamName><ParamVal><![CDATA[D:\Auto Test FrameWork\testData\settlement\collection\银行收款.xls]]></ParamVal>
+</Param>
+<Param ><ParamName><![CDATA[testCaseSheetName]]></ParamName><ParamVal><![CDATA[testCase]]></ParamVal>
+</Param>
+</Summary>
+<NodeArgs eType="StartAction" icon="5" nRep="9" >
+<Disp><![CDATA[Driver_TestCase Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Summary sTime="2008-1-18 - 3:12:26" eTime="2008-1-18 - 3:13:10" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="4" nRep="8" >
+<Disp><![CDATA[Driver_TestSet Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="7" >
+<Disp><![CDATA[Driver Iteration 1 (Row 1)]]></Disp>
+</NodeArgs>
+</DIter>
+<Summary sTime="2008-1-18 - 3:12:25" eTime="2008-1-18 - 3:13:10" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" >
+<Disp><![CDATA[Test Driver Summary]]></Disp>
+</NodeArgs>
+</Doc>
+</Report>
